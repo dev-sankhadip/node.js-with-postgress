@@ -11,7 +11,7 @@ const client=new Client({
 
 client.connect(function()
 {
-    console.log('connected');
+    console.log('database connected');
 })
 
 
