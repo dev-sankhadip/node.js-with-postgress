@@ -1,0 +1,16 @@
+{
+  "name": "postgress",
+  "version": "1.0.0",
+  "description": "reciepe manager",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sankhadip samanta",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "pg": "^7.18.1"
+  }
+}
