@@ -3,10 +3,12 @@ const path=require('path');
 const cors=require('cors');
 const { indexRouter }=require('./routes/index')
 
+
 const app=express();
 
 app.use('/', indexRouter);
 app.use(cors());
+
 
 app.listen(3000, ()=>
 {

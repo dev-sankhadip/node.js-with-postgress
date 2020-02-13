@@ -4,7 +4,7 @@ const { Client }=require('pg');
 const client=new Client({
     user:'root',
     password:'root',
-    database:'reciepebook',
+    database:'reciepebookdb',
     host:'localhost'
 })
 
